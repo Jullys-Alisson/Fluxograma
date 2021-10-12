@@ -1,3 +1,5 @@
+https://app.diagrams.net/#HJullys-Alisson%2FSenai-Vers-es-colabora-es%2Fversoes%2FUntitled%20Diagram.drawio
+
 Passos Lógicos
 
 1 Elaborar sistema
@@ -9,31 +11,32 @@ Passos Lógicos
 7 respeitar limite de 100 pessoas
 8 finalizar cadastro
 
-https://app.diagrams.net/#HJullys-Alisson%2FSenai-Vers-es-colabora-es%2Fversoes%2FUntitled%20Diagram.drawio
-
 2.2 Software
 
+Diagram.drawio
 Node JS
 VSC 
 
 pseudocódigo
 
-1 algoritmo "CalcularMédia"
-2 var
-3 nota1, nota2, nota3, media: real
+1 algoritmo "Evento"
+2 var 
+3 cadastro, nome, idade,Limite =100
 4 início
-5 escrever ("digite a primeira nota:")
-6 ler (nota1)
-7 escrever ("digite a segunda nota:")
-8 ler (nota2)
-9 escrever ("digite a terceira nota:")
-10 ler (nota3)
-11 media<-(nota1+nota2+nota3) /3
-12 escrever (media)
-13 se media>=7 então
-14 escrever ("Aprovado")
-15 senão
-16 escrever ("Reprovado")
-17 fimse
-18 fim
+5 escrever ("digite seu nome")
+6 ler (nome)
+7 escrever ("digite sua idade")
+8 ler (idade)
+9 escrever ("Faça seu cadastro")
+10 ler (Cadastro)
+11 se (idade >=18)
+12 escrever ("cadastro permitido")
+13 senão
+14 escrever ("cadastro negado")
+15 enquanto (idade >=18)
+16 se (limite <100)
+17 escrever ("Há vagas, cadastro realizado com sucesso")
+18 senão
+19 escrever ("Limite excedido, Cadastro não permitido")
+20 fim
 
