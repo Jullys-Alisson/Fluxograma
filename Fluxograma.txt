@@ -1,0 +1,39 @@
+Passos Lógicos
+
+1 Elaborar sistema
+2 criar documentação
+3 criar sistema de login/cadastro
+4 verificar se o evento ja aconteceu
+5 caso ainda não tenha acontecido criar permissões de acesso
+6 Não permitir menores de 18 anos
+7 respeitar limite de 100 pessoas
+8 finalizar cadastro
+
+https://app.diagrams.net/#HJullys-Alisson%2FSenai-Vers-es-colabora-es%2Fversoes%2FUntitled%20Diagram.drawio
+
+2.2 Software
+
+Node JS
+VSC 
+
+pseudocódigo
+
+1 algoritmo "CalcularMédia"
+2 var
+3 nota1, nota2, nota3, media: real
+4 início
+5 escrever ("digite a primeira nota:")
+6 ler (nota1)
+7 escrever ("digite a segunda nota:")
+8 ler (nota2)
+9 escrever ("digite a terceira nota:")
+10 ler (nota3)
+11 media<-(nota1+nota2+nota3) /3
+12 escrever (media)
+13 se media>=7 então
+14 escrever ("Aprovado")
+15 senão
+16 escrever ("Reprovado")
+17 fimse
+18 fim
+
